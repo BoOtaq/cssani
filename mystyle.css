@@ -1,0 +1,291 @@
+     html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+     header {
+        background-color: #094186;
+        margin : 0;
+        padding: 20px;
+        padding-bottom: 15px;
+    }
+
+     header h1 {
+        color: white;
+        margin: 0;
+    }
+
+     #wrap {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    #nav {
+        float: right;
+    }
+
+    a {
+         text-decoration: none;
+    }
+
+    .button {
+        background: rgba(16, 29, 46, 0);
+        border: 2px solid #ffffff;
+        border-radius: 25px;
+        color: #ffffff;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 1;
+        padding: 14px 28px 13px;
+        margin: 20px 2px;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .button:hover, .Mybutton:focus {
+        background: #fff;
+        color: #094186;
+    }
+
+     #home__page {
+         font-size: 50px;
+         font-weight: bold;
+    }
+
+     .description__item {
+         color: white;
+         align-items: center;
+         text-align: center;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 20px;
+         justify-items: center;
+    }
+
+     .background {
+        background: url(../cssanni/design/CSSAnni/images/hero.jpg) center center no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 210px 0;
+    }
+
+    .three {
+        background-color: white;
+        padding: 100px 0;
+    }
+
+    .three__text {  
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        padding-bottom: 40px;
+    }
+
+    .three__image {
+        height: 100%;
+        display: flex; 
+    }
+
+    .container {
+        position: relative;
+        width: 50%;
+        padding-left: 70px;
+    }
+
+    .image {
+        display:block;
+        width: 100%;
+        height: auto;
+        opacity: 1; 
+    }
+
+    .overlay-bottom-slide {
+        position: absolute;     
+        opacity:0;
+        bottom:0;
+        right:0;
+        top:100%;
+        height:0;
+  	    width:100%;
+        overflow: hidden;
+        transition: .5s ease;
+        background-color: white;
+    }
+
+    .container:hover .image {
+        opacity:0.7;
+     }
+
+     .container:hover .overlay-bottom-slide
+      {
+        top: 0;
+        height: 100%;
+        background-color: rgb(255, 255, 255, 0.75);
+        opacity:1;
+ 	}
+
+    
+
+    .text {
+        color: #094186;
+        font-size: 14px;
+        padding: 10px 15px;  
+        text-align: center;
+        position: relative;
+        padding-left: 45px;
+        padding-right: 45px;
+        top:25%;
+        left:60%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .text h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .four {
+        background-color: #094186;
+        margin : 0;
+        padding: 20px;
+        padding-bottom: 35px;
+        padding-top: 10px;
+        color: white;
+
+    }
+
+    #sija {
+        float: left;
+        margin-right: 50px;
+        padding-top: 20px;
+    }
+
+    .five {
+        background: url(../cssanni/design/CSSAnni/images/about.jpg) center center no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 120px 0;
+    }
+
+    .button2 {
+        background: rgba(9, 65, 134, 0);
+        border: 2px solid #094186;
+        border-radius: 25px;
+        color: #094186;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 1;
+        padding: 14px 28px 13px;
+        margin: 20px 2px;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+     .button2:hover, .Mybutton:focus {
+        background: #094186;
+        color: white;
+     }
+
+     br {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .six {
+        position:relative;
+        z-index: 1;
+        background-size: 100% 100%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height:initial;
+    }
+
+    video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+    }
+
+    #video__picture {
+        display:block;
+        margin:auto;
+    }
+
+     .video__text {
+        margin-top: 280px;
+        margin-bottom: 284px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        justify-content: center;
+   }
+
+     .video__text img {
+        mix-blend-mode: hard-light;
+   }
+
+     .video__text h2 {
+        color: white;
+        font-weight: 600;
+        mix-blend-mode: hard-light;
+        padding: 5px 15px;
+        text-align:center;
+    }
+
+     .video__text p {
+        color: white;
+        font-weight: 600;
+        mix-blend-mode: hard-light;
+        padding: 5px 15px;
+        text-align: center;
+    }
+
+     footer {
+        background-color: #094186;
+        font-size: 12px;
+        padding: 14px 0;
+    }
+
+     footer p {
+        color: white;
+        text-align: center;  
+    }
+
+     #btt.down {
+        bottom: 0;
+    }
+
+     #btt {
+        display: inline-block;
+        position: fixed;
+        bottom: -100px;
+        right: 50px;
+        color: #fff;
+        background: #094186;
+        padding: 10px;
+        transition: all 0.2s ease;
+        border: none;
+    }
+
+     #btt:hover, .Mybutton:focus {
+        background: white;
+        color: #094186;
+    }
